@@ -132,6 +132,7 @@ while True:
         print("5 - Gsm Tc Sorgu")
         print("6 - Adres Sorgu")       
         print("7 - Discord")
+        print("8 - Youtube")
         secim = input("Seciminiz: ")
 
         if secim == "1":
@@ -154,5 +155,7 @@ while True:
         elif secim == "6":
             response = requests.get(url + "adres.py")
             subprocess.run(["python", "-c", response.text])
+        elif secim == "8":
+            webbrowser.open("https://discord.gg/apexcode")
         else:
             print("Hatalı seçim.")
