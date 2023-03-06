@@ -38,9 +38,6 @@ if check_file():
     update_file()
     print("Kod Guncel")
     time.sleep(3)
-else:
-    print("Kod zaten guncel")
-    time.sleep(3)
 
 def run_as_admin(argv=None, debug=False):
     if argv is None:
