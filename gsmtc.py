@@ -2,9 +2,9 @@ import mysql.connector
 
 # Veritabanı bağlantısı için gerekli bilgileri girin
 mydb = mysql.connector.connect(
-    host="207.154.249.150",
-    user="codex",
-    password="codex",
+    host="localhost",
+    user="root",
+    password="",
     database="avea"
 )
 
