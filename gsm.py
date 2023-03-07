@@ -5,7 +5,7 @@ mydb = mysql.connector.connect(
     host="localhost",
     user="root",
     password="",
-    database="avea"
+    database="120mgsm"
 )
 
 # Cursor oluştur
@@ -17,7 +17,7 @@ tc = input("TC giriniz: ")
 # Verileri veritabanında ara ve sonucu yazdır
 try:
     # TC ile eşleşen kaydı seç
-    sql = f"SELECT * FROM gsmtotc WHERE TC = '{tc}'"
+    sql = f"SELECT * FROM 120mgsm WHERE TC = '{tc}'"
 
     # Sorguyu çalıştır
     mycursor.execute(sql)
