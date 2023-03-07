@@ -5,7 +5,7 @@ mydb = mysql.connector.connect(
     host="localhost",
     user="root",
     password="",
-    database="120mgsm"
+    database="avea"
 )
 
 # Cursor oluştur
